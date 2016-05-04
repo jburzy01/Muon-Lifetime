@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 MAY 2016 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 MAY 2016 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,7 +804,11 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 20.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 20.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 20.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 20.
- (./lab6.aux)
+ (./lab6.aux
+
+LaTeX Warning: Label `fig:fit' multiply defined.
+
+)
 \openout1 = `lab6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -1048,45 +1052,69 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<ABT.png, id=17, 361.35pt x 239.89626pt>
+File: ABT.png Graphic file (type png)
+ <use ABT.png>
+Package pdftex.def Info: ABT.png used on input line 83.
+(pdftex.def)             Requested size: 227.62204pt x 151.11713pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 84.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 84.
 
-<fit.png, id=1, 361.35pt x 234.8775pt>
+<ABTV.png, id=18, 361.35pt x 239.89626pt>
+File: ABTV.png Graphic file (type png)
+ <use ABTV.png>
+Package pdftex.def Info: ABTV.png used on input line 89.
+(pdftex.def)             Requested size: 227.62204pt x 151.11713pt.
+
+<fit.png, id=19, 672.5125pt x 427.5975pt>
 File: fit.png Graphic file (type png)
  <use fit.png>
-Package pdftex.def Info: fit.png used on input line 85.
-(pdftex.def)             Requested size: 227.62204pt x 147.95567pt.
- [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package pdftex.def Info: fit.png used on input line 100.
+(pdftex.def)             Requested size: 227.62204pt x 144.72876pt.
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 91.
+<linearfit.png, id=20, 532.99126pt x 347.2975pt>
+File: linearfit.png Graphic file (type png)
+ <use linearfit.png>
+Package pdftex.def Info: linearfit.png used on input line 107.
+(pdftex.def)             Requested size: 227.62204pt x 148.31754pt.
 
 No file lab6.bbl.
-[2 <./fit.png (PNG copy)>] (./lab6.aux) ) 
+[2 <./ABT.png (PNG copy)> <./ABTV.png (PNG copy)> <./fit.png (PNG copy)> <./lin
+earfit.png (PNG copy)>] (./lab6.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 14997 strings out of 493089
- 293459 string characters out of 6134842
- 349297 words of memory out of 5000000
- 18238 multiletter control sequences out of 15000+600000
- 64236 words of font info for 82 fonts, out of 8000000 for 9000
+ 15082 strings out of 493089
+ 294681 string characters out of 6134842
+ 355364 words of memory out of 5000000
+ 18296 multiletter control sequences out of 15000+600000
+ 86162 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,39p,10386b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fo
-nts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/
-lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.e
-nc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/lm/lmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
-r10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/lm/lmsy7.pfb>
-Output written on lab6.pdf (2 pages, 179428 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
+e/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-d
+ist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
+m/lmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi10.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/lm/lmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/lm/lmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri9.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on lab6.pdf (2 pages, 246130 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 19462 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 26645 words of extra memory for PDF output out of 29859 (max. 10000000)
 
