@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 MAY 2016 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 MAY 2016 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,33 +1052,33 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<ABT.png, id=17, 361.35pt x 239.89626pt>
+
+<ABT.png, id=1, 361.35pt x 239.89626pt>
 File: ABT.png Graphic file (type png)
  <use ABT.png>
-Package pdftex.def Info: ABT.png used on input line 83.
+Package pdftex.def Info: ABT.png used on input line 82.
 (pdftex.def)             Requested size: 227.62204pt x 151.11713pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 84.
+(Font)              <9> on input line 83.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 84.
+(Font)              <6> on input line 83.
 
-<ABTV.png, id=18, 361.35pt x 239.89626pt>
+<ABTV.png, id=2, 361.35pt x 239.89626pt>
 File: ABTV.png Graphic file (type png)
  <use ABTV.png>
-Package pdftex.def Info: ABTV.png used on input line 89.
+Package pdftex.def Info: ABTV.png used on input line 88.
 (pdftex.def)             Requested size: 227.62204pt x 151.11713pt.
-
+ [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <fit.png, id=19, 672.5125pt x 427.5975pt>
 File: fit.png Graphic file (type png)
  <use fit.png>
-Package pdftex.def Info: fit.png used on input line 100.
+Package pdftex.def Info: fit.png used on input line 99.
 (pdftex.def)             Requested size: 227.62204pt x 144.72876pt.
 
 <linearfit.png, id=20, 532.99126pt x 347.2975pt>
 File: linearfit.png Graphic file (type png)
  <use linearfit.png>
-Package pdftex.def Info: linearfit.png used on input line 107.
+Package pdftex.def Info: linearfit.png used on input line 106.
 (pdftex.def)             Requested size: 227.62204pt x 148.31754pt.
 
 No file lab6.bbl.
@@ -1089,10 +1089,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15082 strings out of 493089
- 294681 string characters out of 6134842
- 355364 words of memory out of 5000000
- 18296 multiletter control sequences out of 15000+600000
+ 15083 strings out of 493089
+ 294699 string characters out of 6134842
+ 353378 words of memory out of 5000000
+ 18297 multiletter control sequences out of 15000+600000
  86162 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,39p,10386b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1111,7 +1111,7 @@ type1/public/lm/lmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on lab6.pdf (2 pages, 246130 bytes).
+Output written on lab6.pdf (2 pages, 245991 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream

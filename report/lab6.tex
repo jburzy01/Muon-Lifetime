@@ -48,16 +48,15 @@ whereas the principal mode the the $\mu^-$ is
 \[
 	\mu^- \rightarrow e^- + \overline{\nu}_e + \nu_{\mu}
 \]
-The probability that a particle decays in a given time interval $dt$ is independent of how long the particle may have existed since its creation. Given a population of $N$ particles, the change in the population $dN$ in the time interval $dt$ is given by
+Given a population of $N$ particles, the change in the population $dN$ in the time interval $dt$ is given by
 
 \begin{equation} \label{eq:decayrate}
     \frac{dN}{dt} = - \frac{N}{\tau}
 \end{equation}
-
 The solution to \eqref{eq:decayrate} is given by
-\[
+\begin{equation} \label{eq:decayratesoln}
 	N = N_0 e^{-t/\tau}
-\]
+\end{equation}
 where $N_0$ is the population at $t=0$. The rate at which decays occur is thus
 \[
 	-\frac{dN}{dt} = \frac{N_0}{\tau} e^{-t/\tau}
@@ -112,7 +111,7 @@ Fitting the decay time histogram to an exponential, we obtain a first estimate o
 We expect that not all of the events shown in figure~\ref{fig:fit} are from true muon decays. Since the TAC stops at any $A \cdot B$ signal, the TAC may be stopped prematurely due to background processes. However, we may use the measured $A \cdot B$ counting rate to remove some of this background and thus obtain a more precise measurement of the muon lifetime. By calculating the probability that in a given time interval $dt$ a false $A \cdot B$ signal will prematurely stop the TAC, we obtain a rough estimate of the number of false counts as a function of time. However, after completing this calculation, we determine that the effect of background is negligible and has no effect on our value of the muon lifetime. 
 
 \section{Error}
-We now determine a systematic error on our measurement of $e$. The standard error associated with the fitting parameter $\tau$ is calculated from Mathematica's LinearModelFit function. The value of $\sigma_{\tau}$ is given by
+We now determine a systematic error on our measurement of $\tau$. The standard error associated with the fitting parameter $\tau$ is calculated from Mathematica's LinearModelFit function. The value of $\sigma_{\tau}$ is given by
 \[
 	\sigma_{\tau} = \SI{0.0194}{\mu s}.
 \]
