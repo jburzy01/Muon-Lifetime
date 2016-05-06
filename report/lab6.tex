@@ -90,25 +90,27 @@ We next look at the response curves obtained to set the high voltages for the $T
 \label{fig:ABTV}
 \end{figure}
 
-Fitting the decay time histogram to an exponential, we obtain a first estimate of the muon lifetime. The fit is shown in figure~\ref{fig:fit}. To obtain a more accurate value, we plot the logarithm of the count totals and fit  The value of $\tau$ obtained from the slope of the linear fit is
+Fitting the decay time histogram to an exponential, we obtain a first estimate of the muon lifetime. The fit is shown in figure~\ref{fig:fit}. To obtain a more accurate value, we plot the logarithm of the count totals and fit the data to a linear model. The value of $\tau$ obtained from the slope of the linear fit is
 \[
 	\tau = \SI{2.125e-6}{s}.
 \]
-\begin{figure}
+\begin{figure}[t!]
 \centering
 \includegraphics[width=8cm]{fit.png}
 \caption{Exponential fit of decay time data}
 \label{fig:fit}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[t]
 \centering
 \includegraphics[width=8cm]{linearfit.png}
 \caption{Linear fit of decay time data}
 \label{fig:fit}
 \end{figure}
 
-We expect that not all of the events shown in figure~\ref{fig:fit} are from true muon decays. Since the TAC stops at any $A \cdot B$ signal, the TAC may be stopped prematurely due to background processes. However, we may use the measured $A \cdot B$ counting rate to remove some of this background and thus obtain a more precise measurement of the muon lifetime. By calculating the probability that in a given time interval $dt$ a false $A \cdot B$ signal will prematurely stop the TAC, we obtain a rough estimate of the number of false counts as a function of time. However, after completing this calculation, we determine that the effect of background is negligible and has no effect on our value of the muon lifetime. 
+We expect that not all of the events shown in figure~\ref{fig:fit} are from true muon decays. Since the TAC stops at any $A \cdot B$ signal, the TAC may be stopped prematurely due to background processes. However, we may use the measured $A \cdot B$ counting rate to remove some of this background and thus obtain a more precise measurement of the muon lifetime. By calculating the probability that in a given time interval $dt$ a false $A \cdot B$ signal will prematurely stop the TAC, we obtain a rough estimate of the number of false counts as a function of time. 
+
+However, after completing this calculation, we determine that the effect of background is negligible and has no effect on our value of the muon lifetime. 
 
 \section{Error}
 We now determine a systematic error on our measurement of $\tau$. The standard error associated with the fitting parameter $\tau$ is calculated from Mathematica's LinearModelFit function. The value of $\sigma_{\tau}$ is given by
@@ -120,7 +122,7 @@ We now determine a systematic error on our measurement of $\tau$. The standard e
 
 We were able to calculate the value of $\tau$ to be
 \[
-    e = (2.217 \pm 0.0194) \times 10^{-6} \,\si{s}.
+    \tau = (2.217 \pm 0.0194) \times 10^{-6} \,\si{s}.
 \]
 Comparing this with the known value of the mean lifetime of the muon $\tau$, $\tau_0 = \SI{2.197e-6}{s}$, we see that $\tau_0$ falls within 2 standard deviations of our measurement.
 Thus, our experimentally determined value of $\tau$ agrees reasonably with the

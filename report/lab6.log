@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 MAY 2016 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 MAY 2016 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,10 +1089,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15083 strings out of 493089
- 294699 string characters out of 6134842
- 353378 words of memory out of 5000000
- 18297 multiletter control sequences out of 15000+600000
+ 15085 strings out of 493089
+ 294718 string characters out of 6134842
+ 354378 words of memory out of 5000000
+ 18299 multiletter control sequences out of 15000+600000
  86162 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,39p,10386b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1111,7 +1111,7 @@ type1/public/lm/lmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on lab6.pdf (2 pages, 245991 bytes).
+Output written on lab6.pdf (2 pages, 246031 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
